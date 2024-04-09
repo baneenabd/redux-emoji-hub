@@ -1,6 +1,7 @@
 import React from "react";
 
 export const EmojiItem = ({ emoji }) => {
+  console.log (emoji);
   return (
     <div>
       <p>{emoji.name}</p>
